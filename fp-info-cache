@@ -1,4 +1,4 @@
-26660332550171763
+26667369421654511
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62650,6 +62650,13 @@ heatsink
 0
 0
 Inductor_SMD
+IND_SPM6530T-2R2M
+
+
+0
+2
+2
+Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
 Choke SMD
@@ -90292,6 +90299,27 @@ SOT-1334-1
 0
 14
 14
+Package_TO_SOT_SMD
+SOT6_DRL_TEX
+
+XTPS565242DRLR 
+0
+6
+6
+Package_TO_SOT_SMD
+SOT6_DRL_TEX-L
+
+XTPS565242DRLR 
+0
+6
+6
+Package_TO_SOT_SMD
+SOT6_DRL_TEX-M
+
+XTPS565242DRLR 
+0
+6
+6
 Package_TO_SOT_SMD
 SuperSOT-3
 3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf

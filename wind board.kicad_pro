@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 5.7,
-          "width": 5.7
+          "height": 0.35,
+          "width": 0.675
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -193,7 +193,8 @@
         0.4,
         0.45,
         0.5,
-        1.0
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -650,6 +651,10 @@
     [
       "6ff0ef20-ee81-4b16-8d31-a8f0cc267b22",
       "Root"
+    ],
+    [
+      "8f744145-cbac-43cd-8d9b-32558df82040",
+      "Power Input"
     ]
   ],
   "text_variables": {}
