@@ -1,4 +1,4 @@
-26667369421654511
+26676168011774818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62657,6 +62657,13 @@ IND_SPM6530T-2R2M
 2
 2
 Inductor_SMD
+LVS808040-100M-N
+lvs sealed power inductor
+inductor
+0
+2
+2
+Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
 Choke SMD
@@ -67122,6 +67129,13 @@ air coil inductor wurth we cair
 0
 2
 2
+Inductor_SMD
+Untitled
+
+
+0
+0
+0
 Inductor_SMD_Wurth
 L_Wurth_WE-LQSH-2010
 Semi-Shielded High Saturation Power Inductor, body 2x1.6mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2010
@@ -89950,6 +89964,13 @@ SC-82AB
 4
 4
 Package_TO_SOT_SMD
+SM0502HTG
+SM05-02HTG-2
+TVS Diode (Bi-directional)
+0
+3
+3
+Package_TO_SOT_SMD
 SOT-23
 SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
@@ -105538,6 +105559,13 @@ igbt diode module
 0
 25
 25
+Transistor_Power_Module
+TRANS_AONR21321
+
+
+0
+11
+11
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -106331,6 +106359,13 @@ athletic Square
 0
 logos
 more_cowbell
+
+
+0
+0
+0
+logos
+wind
 
 
 0
