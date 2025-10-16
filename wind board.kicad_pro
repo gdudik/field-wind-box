@@ -679,6 +679,10 @@
     [
       "8f744145-cbac-43cd-8d9b-32558df82040",
       "Power Input"
+    ],
+    [
+      "7edb4a43-cacb-43bf-9710-b57caf9f2b3e",
+      "USB_C_PD"
     ]
   ],
   "text_variables": {}
