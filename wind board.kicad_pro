@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.35,
-          "width": 0.675
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|152021968|53749999|b35c1a4c-737b-4814-ae29-822e96de874f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|98974874|58000000|669a8e51-e643-4934-9654-1071404d492d|eec3760d-2a3c-483e-afd6-f06f8cfca70b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|98974874|67400000|669a8e51-e643-4934-9654-1071404d492d|45a38ccf-8740-4097-bd1d-e00480ec6539",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -193,8 +206,14 @@
         0.4,
         0.45,
         0.5,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
         1.0,
-        1.5
+        1.5,
+        3.0,
+        3.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -246,7 +265,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1866900|508000|a8905f55-6683-41ee-b5ee-a1e22d268089|ad41362a-3e8d-4087-ae0e-8d353288f024|/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22/7edb4a43-cacb-43bf-9710-b57caf9f2b3e|/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22/7edb4a43-cacb-43bf-9710-b57caf9f2b3e|/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22/7edb4a43-cacb-43bf-9710-b57caf9f2b3e",
+        ""
+      ],
+      [
+        "power_pin_not_driven|774700|609600|5f4399b0-b111-4ec0-8d52-a4bbe0889a44|00000000-0000-0000-0000-000000000000|/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22|/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
