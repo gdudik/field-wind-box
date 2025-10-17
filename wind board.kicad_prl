@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 5,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -54,9 +54,9 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "ssh",
-    "repo_username": "git",
-    "ssh_key": "/Users/grahamdudik/.ssh/id_ed25519"
+    "repo_type": "https",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "wind board.kicad_prl",
