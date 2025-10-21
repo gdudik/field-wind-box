@@ -16,3 +16,4 @@ Metal hold down strap 7-1/4" long, 3/4" wide, 12ga
 standoffs
 battery board?
 led caps
+Right-angle USB cable
