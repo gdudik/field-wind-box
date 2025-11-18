@@ -17,3 +17,5 @@ standoffs
 battery board?
 led caps
 Right-angle USB cable
+3-wire harness for serial, 11"
+4-wire harness for WG, 14"

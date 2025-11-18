@@ -1,0 +1,31 @@
+Comment,Designator,Footprint,LCSC,Quantity
+30,R6,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+10K,R9,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+100nF,C5,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+PTSM82903SISB2R,U2,SIS0011A-MFG,,1
+TestPoint,J_PA0,TestPoint_Pad_4.0x4.0mm,,1
+Batt +,J1,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
+26.1k,R3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+LED,D5,LED_D5.0mm,,1
+LED,D2,LED_D5.0mm,,1
+LED,D1,LED_D5.0mm,,1
+Batt -,J2,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
+30,R4,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+MAX17263xxTE,U1,DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm,,1
+22uF,C2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+200k - 0.1%,R2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+10uF,C1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+4.7uF,C6,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+100 nF,C3,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+LED,D4,LED_D5.0mm,,1
+30,R5,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+LED,D3,LED_D5.0mm,,1
+10K,R11,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+30,R7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+10K,R10,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+470nF,C4,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+1.5M - 0.1%,R1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+ATtiny402-SS,U3,SOIC-8_3.9x4.9mm_P1.27mm,,1
+Sys -,J4,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
+300k - 0.1%,R8,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,1
+Sys +,J3,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
