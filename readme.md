@@ -25,3 +25,9 @@ After downloading the bin file from the tool, I used IMS_Prog which is a tool fo
 | 3  | Green  | Data RX from WG  | 3  |
 |  4 |  White | Data GND  | 1  |
 
+## 3-Pin Header to LP16 for RS232
+| 3 Pin Header | Wire Color  | Function  | LP16 Pin Num  |
+|---|---|---|---|
+| 1  | Orange  | RXI  | 2  |
+|  2 | White  | Data GND  | 3  |
+| 3  | Blue  | TXO  | 1  |
