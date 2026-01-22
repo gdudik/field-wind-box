@@ -25,8 +25,6 @@ Comment,Designator,Footprint,LCSC,Quantity
 AONR21321,Q1,TRANS_AONR21321,C541711,1
 AT24C512C-SSHM,U10,SOIC-8_3.9x4.9mm_P1.27mm,C54668,1
 CH334R,U1,QSOP-16_3.9x4.9mm_P0.635mm,C4154405,1
-Conn_01x06_MountingPin,J3,PinHeader_1x04_P2.54mm_Vertical,C492403,1
-Conn_01x06_MountingPin,"J2,J6",PinHeader_1x03_P2.54mm_Vertical,C49257,2
 HCB3216KF-601T30,FB1,C_1206_3216Metric,C357023,1
 LED,"D15,D2,D4,D7",LED_0603_1608Metric,C2286,4
 LED,"D1,D3,D8",LED_0603_1608Metric,C2290,3
@@ -39,21 +37,3 @@ TVS2200DRV,U12,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,C523793,1
 USB_C_Receptacle_USB2.0_14P,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948,1
 XC6206PxxxMR,U11,SOT-23-3,C5446,1
 ZT3222F,"U4,U5,U8",TSSOP-20_4.4x6.5mm_P0.65mm,C19078605,3
-TestPoint,TP1,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP7,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP5,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-FT232RNL,U2,SSOP-28_5.3x10.2mm_P0.65mm,,1
-TestPoint,TP10,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP8,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP4,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP9,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-FT232RNL,U3,SSOP-28_5.3x10.2mm_P0.65mm,,1
-TestPoint,TP6,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP11,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP15,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP14,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP13,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-TestPoint,TP12,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,,1
-FT232RNL,U7,SSOP-28_5.3x10.2mm_P0.65mm,,1
-12V -,J4,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
-12V +,J5,MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom,,1
