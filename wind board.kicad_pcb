@@ -1168,7 +1168,7 @@
 		(path "/f9ea15f0-f284-4e01-a2ea-f95937e714a2")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -1530,7 +1530,7 @@
 		(path "/a9292ad6-6c11-4624-aa67-6c0717469a04")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.875 -5.325)
 			(end -2.875 -4.75)
@@ -2559,7 +2559,7 @@
 		(path "/8f744145-cbac-43cd-8d9b-32558df82040/4776932d-8899-475d-8164-18c594cb53c4")
 		(sheetname "/Power Input/")
 		(sheetfile "power_input.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.8 0)
@@ -4314,7 +4314,7 @@
 		(path "/f8de9731-3c4e-4f43-b22c-e42d0a2d70a6")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -4899,7 +4899,7 @@
 		(path "/7f689e76-4008-4be4-b02f-03425502d6f9")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -5007,13 +5007,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "21a772bb-5dba-4afa-977a-f496fb07a788")
-		(at 134.25 53.8 -90)
+		(at 138 53.8 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C50"
-			(at 0 -1.16 90)
+			(at 0 1 90)
 			(layer "F.SilkS")
-			(uuid "cde7e70f-0adc-48b9-a12d-961505fa7fb0")
+			(uuid "27749651-b80e-4f81-99d1-8c2636bc2360")
 			(effects
 				(font
 					(size 1 1)
@@ -5024,7 +5024,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "4c788de2-d8ef-4b12-9292-8ec58acf6840")
+			(uuid "e8690caf-3a0f-4d64-834a-45a3bbb5cd5f")
 			(effects
 				(font
 					(size 1 1)
@@ -5036,7 +5036,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfe3761f-389e-4306-83a5-3bcabc6067af")
+			(uuid "fa198193-2200-4f42-85aa-3c169c5b4c36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5048,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce2ccd36-633f-4b0f-a202-f6b33c32f493")
+			(uuid "9bb90f31-6f25-436b-af2e-5cd5a4715774")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5671,7 @@
 		(path "/42af321f-b438-41b4-af56-fb0b83fee2e8")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -5996,6 +5996,7 @@
 		(property "Reference" "C18"
 			(at -0.1 -3.9 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "33add284-2890-4869-bfc6-7bfe97d8bc9a")
 			(effects
 				(font
@@ -6404,8 +6405,9 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at -0.125 -3.4 90)
+			(at 2.8 0.05 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6d3a81b3-75e2-4132-8a63-6a0655240787")
 			(effects
 				(font
@@ -6654,7 +6656,7 @@
 		(path "/de7e896e-545f-44db-8535-f5b097ff13a7")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.875 -5.325)
 			(end -2.875 -4.75)
@@ -10014,7 +10016,7 @@
 		(descr "THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP10"
-			(at 2.9 0.5 0)
+			(at -1.7 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f53a95da-6cbf-4c23-8f16-5f2223f26d04")
 			(effects
@@ -10065,7 +10067,7 @@
 		(path "/d523ac2c-b8cf-42ed-aa1c-60c2a752b582")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -10575,7 +10577,7 @@
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U4"
-			(at 0 -4.2 90)
+			(at 0 4.15 90)
 			(layer "F.SilkS")
 			(uuid "0322464a-9962-4150-ba18-36375a59d038")
 			(effects
@@ -11033,7 +11035,7 @@
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U8"
-			(at 0 -4.2 90)
+			(at 1.35 4.125 90)
 			(layer "F.SilkS")
 			(uuid "c58d3545-62fa-4ccb-ac09-e7aec4c3145f")
 			(effects
@@ -13426,7 +13428,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 1.78 0 90)
+			(at 1.7 0 90)
 			(layer "F.SilkS")
 			(uuid "35e10d02-8aff-499c-94bc-8f11d1f4d60a")
 			(effects
@@ -13983,7 +13985,7 @@
 		(path "/86763612-7db3-4713-adb0-3ed436693d2e")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -14351,11 +14353,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C91552"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "241cd676-0c55-41f5-9d86-4a298e7d9deb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0f0c3172-38ad-4c98-b3fb-f66774099e49")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 -1.38)
 			(end 1.39 -1.38)
@@ -16332,7 +16346,7 @@
 		(descr "THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP8"
-			(at 0 -1.448 0)
+			(at -2.35 0 0)
 			(layer "F.SilkS")
 			(uuid "1ac67671-7a8a-41b2-a96f-32b1281158f2")
 			(effects
@@ -16383,7 +16397,7 @@
 		(path "/10b07798-7650-4143-8b9b-1f813a532922")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -17604,7 +17618,7 @@
 		(path "/58c10e0f-aa20-41bb-a20a-3583ae863b13")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -18376,7 +18390,7 @@
 		(path "/2473f460-3f5c-48f9-b3a8-5acbcff5bdef")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -18539,7 +18553,7 @@
 		(path "/1d40d583-9cc9-464b-b408-e99cfa950ef3")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -21208,7 +21222,7 @@
 		(path "/a0a502df-6265-4463-827a-e0bbafa5a4cf")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -23125,7 +23139,7 @@
 		(path "/6650cad8-21f6-49eb-9c0e-d00712935492")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.875 -5.325)
 			(end -2.875 -4.75)
@@ -27115,7 +27129,7 @@
 		(path "/fc0c7d40-7120-4147-9545-79bfb02c883f")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -28738,7 +28752,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 5.05 -1.12 90)
+			(at -0.25 7.63 90)
 			(layer "F.SilkS")
 			(uuid "244e67eb-42f3-4fb1-936c-beef64f6d8e7")
 			(effects
@@ -28783,11 +28797,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C42385508"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ba3acde7-2b5d-41dc-a086-4565b4c43666")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f16a16ab-811a-484e-9420-2af0a779e1cd")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 -1.38)
 			(end 1.39 -1.38)
@@ -30555,7 +30581,7 @@
 		(path "/8f744145-cbac-43cd-8d9b-32558df82040/6f2393bc-223e-4c9b-a00a-a281247327d4")
 		(sheetname "/Power Input/")
 		(sheetfile "power_input.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.8 0)
@@ -30675,11 +30701,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C42385508"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1c30141-f950-42af-a7da-ac7b5a24db3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1f8c614f-8182-4056-b4a7-4662c6cc05d9")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 -1.38)
 			(end 1.39 -1.38)
@@ -31225,7 +31263,7 @@
 		(descr "THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP11"
-			(at -2.8 0.5 0)
+			(at 1.1 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "ba524b79-4dc9-405f-80cd-f355b1aa004c")
 			(effects
@@ -31276,7 +31314,7 @@
 		(path "/e2ea7d79-d74c-4fb6-a270-e0e932d9e1d7")
 		(sheetname "/")
 		(sheetfile "wind board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -31384,7 +31422,7 @@
 	(footprint "logos:more_cowbell"
 		(layer "B.Cu")
 		(uuid "aa8ab3cb-a21d-420a-98ca-60271319f457")
-		(at 159.9 101.6 180)
+		(at 160.2 89.55 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -33797,6 +33835,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9468fdfc-62da-4f0f-8952-89b6653e631b")
+	)
+	(segment
+		(start 138 54.28)
+		(end 133.83 54.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "9b67d1f0-72cf-4e79-a572-3b9e07bd0d27")
 	)
 	(segment
 		(start 113.602 73.9)
@@ -39245,6 +39291,14 @@
 		(uuid "01781db0-3828-4471-8534-fc8963f852d8")
 	)
 	(segment
+		(start 134.25 53.32)
+		(end 134.14 53.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "0e3cba5b-5461-47ee-a62e-99d33ef614eb")
+	)
+	(segment
 		(start 155.5625 58.95)
 		(end 155.5625 60.2425)
 		(width 0.2)
@@ -39269,14 +39323,6 @@
 		(uuid "338cac14-0644-4c31-affd-0bcbc3fbdeab")
 	)
 	(segment
-		(start 139.1 55.3)
-		(end 139.55 54.85)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "38f8a6c5-18a6-4cc2-947b-7473fb59affb")
-	)
-	(segment
 		(start 153.35 56.42)
 		(end 153.35 55.765531)
 		(width 0.2)
@@ -39285,20 +39331,12 @@
 		(uuid "3bd9a579-073a-4a04-a4d4-b74ef65c437e")
 	)
 	(segment
-		(start 134.25 53.32)
-		(end 136.23 55.3)
+		(start 134.14 53.21)
+		(end 132.05 53.21)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 114)
-		(uuid "50d10dc0-d3fe-4dce-9126-f741a4f3dcfc")
-	)
-	(segment
-		(start 136.23 55.3)
-		(end 139.1 55.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "5f71f09a-f37d-45d4-b4d0-2054010f6f87")
+		(uuid "537aec20-4467-441f-b36c-d77b921c66c2")
 	)
 	(segment
 		(start 139.54 54.84)
@@ -39309,12 +39347,12 @@
 		(uuid "61b3c835-ec45-4493-8c5b-4c3e4bceea8d")
 	)
 	(segment
-		(start 132.05 53.21)
-		(end 134.14 53.21)
-		(width 0.25)
+		(start 138.02 53.32)
+		(end 139.55 54.85)
+		(width 0.2)
 		(layer "F.Cu")
 		(net 114)
-		(uuid "62a56fd5-2144-4f31-99e4-b8ca48950d80")
+		(uuid "6204989c-b6b4-4f6c-8af0-cf9f0d993356")
 	)
 	(segment
 		(start 140 55.3)
@@ -39333,14 +39371,6 @@
 		(uuid "6ff33264-c9fe-480c-bda9-c05fda9085eb")
 	)
 	(segment
-		(start 134.14 53.21)
-		(end 134.25 53.32)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "7b3b3753-272d-42f0-8100-85a5fe16d555")
-	)
-	(segment
 		(start 139.54 52.2)
 		(end 139.54 53.45)
 		(width 0.2)
@@ -39355,6 +39385,14 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "9117e3e4-5d2b-4d88-9291-cde97dd0503f")
+	)
+	(segment
+		(start 134.25 53.32)
+		(end 138.02 53.32)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "9590e955-baaf-426b-a3cf-44b5ca42845f")
 	)
 	(segment
 		(start 144.05 55.3)
