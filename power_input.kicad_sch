@@ -2400,12 +2400,6 @@
 		(uuid "ac2a1016-8494-422d-9a8a-227b67447038")
 	)
 	(junction
-		(at 139.7 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b12463f7-75ca-4612-93e8-a6c751fcc27d")
-	)
-	(junction
 		(at 67.31 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2416,6 +2410,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65dd77c-04b4-412f-a663-c58b242584a2")
+	)
+	(no_connect
+		(at 144.78 104.14)
+		(uuid "6a8d1bb0-23ce-43e5-a2a0-66bef34a96b7")
 	)
 	(wire
 		(pts
@@ -2619,16 +2617,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 134.62 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c46301-956d-46a9-8daa-14b6ec665a58")
-	)
-	(wire
-		(pts
 			(xy 99.06 81.28) (xy 105.41 81.28)
 		)
 		(stroke
@@ -2786,16 +2774,6 @@
 			(type default)
 		)
 		(uuid "c832744c-8312-40bf-b439-f9eefa14565a")
-	)
-	(wire
-		(pts
-			(xy 144.78 104.14) (xy 134.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5df282-7a83-4960-aa1a-c9a6823e4b55")
 	)
 	(wire
 		(pts
@@ -5708,73 +5686,6 @@
 			(project ""
 				(path "/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22/8f744145-cbac-43cd-8d9b-32558df82040"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 137.16 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed4eb386-649f-4a27-8ebd-43712845e3f1")
-		(property "Reference" "R11"
-			(at 137.16 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 137.16 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa5c6205-5b11-49e4-ba0e-a13f7041f98b")
-		)
-		(pin "2"
-			(uuid "45a1801a-0d5f-4ee7-aeb2-6dfccfbace06")
-		)
-		(instances
-			(project ""
-				(path "/6ff0ef20-ee81-4b16-8d31-a8f0cc267b22/8f744145-cbac-43cd-8d9b-32558df82040"
-					(reference "R11")
 					(unit 1)
 				)
 			)
